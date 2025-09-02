@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Check out the repository
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       # Run markdown lint and output results to a JSON file
       - name: Run markdown lint
